@@ -1,0 +1,32 @@
+basic git for windows :
+
+
+
+
+ open git gui 
+- create an empty folder in your computer
+- select option create new repository 
+-you will get an browse option
+- select that empty folder in that browse option 
+- under repository select visulization masters history 
+- once you select , it will show some error 
+- you can see nothing as it is a blank project
+- now in your computer in your empty folder project select an file and name it as index.php
+- now in git gui press rescan  button
+- and you will see a file left side index .php
+- now press on stage changes button - it will show an error untracked , not stagged which means git is not prepared for the file for commit yet 	
+- now press on commit 
+- enter commit message : initial commit - checked empty index file 
+- now check in repository menu , visualization masters  history , you will see the difference 
+- now return to index .php , made some changes , enter this command <php echo 'hello world ';> and save in notepad ++  and rename 
+- now open gui and press rescan button
+- you will see a new file  ex : existing index.php
+- now press on stage changes button 
+- an yellow colour line will display on the top
+- now press on commit 
+- enter a valid message 
+- check in repository 
+ - check in visualizatio  master branch history 
+Notice that changes are nicely colored: plus (+) sign at the beginning of the line means that the code was added (it is new) and it is in green, and the deleted or removed code starts with minus (-) sign at the beginning of each line and it is in red. Simple and effective! Blue lines represents internal Git’s comments with no change
+ 
+         
